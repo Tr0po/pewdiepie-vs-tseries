@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 extension String
 {
     func counter() -> String
