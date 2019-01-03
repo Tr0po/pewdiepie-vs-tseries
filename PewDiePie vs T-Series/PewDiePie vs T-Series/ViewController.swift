@@ -53,7 +53,7 @@ class ViewController: UIViewController {
             let myHTMLString = try String(contentsOf: myURL, encoding: .ascii)
             pewdiesubs.text = "\(myHTMLString.counter())"
         } catch let error {
-            pewdiesubs.text = "URL: \(myURL) -- Error: \(error)"
+            pewdiesubs.text = "---"
         }
         
     }
@@ -70,7 +70,7 @@ class ViewController: UIViewController {
             let myHTMLString = try String(contentsOf: myURL, encoding: .ascii)
             tseriessubs.text = "\(myHTMLString.counter())"
         } catch let error {
-            tseriessubs.text = "URL: \(myURL) -- Error: \(error)"
+            tseriessubs.text = "---"
         }
         
     }
